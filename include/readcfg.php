@@ -38,6 +38,13 @@ $useradm = explode('<|<', $data['mikhmon'][1])[1];
 $passadm = explode('>|>', $data['mikhmon'][2])[1];
 $livereport = explode('@!@', $data[$session][11])[1];
 
+echo '<pre>';
+echo 'SESSION : ' . $session . "\n";
+echo 'IPHOST : ' . $iphost . "\n";
+echo 'USER : ' . $userhost . "\n";
+echo '</pre>';
+exit;
+
 $cekindo['indo'] = array(
     'RP', 'Rp', 'rp', 'IDR', 'idr', 'RP.', 'Rp.', 'rp.', 'IDR.', 'idr.',
 );
